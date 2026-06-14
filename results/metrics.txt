@@ -1,0 +1,12 @@
+RandomForest: AUC=0.9500, Accuracy=0.8990
+MLP: AUC=0.6242, Accuracy=0.7060
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.90      0.96      0.93      1396
+           1       0.89      0.76      0.82       604
+
+    accuracy                           0.90      2000
+   macro avg       0.90      0.86      0.87      2000
+weighted avg       0.90      0.90      0.90      2000
