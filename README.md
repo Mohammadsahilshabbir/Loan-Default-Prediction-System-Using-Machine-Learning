@@ -79,18 +79,35 @@ F1-Score	0.93	0.82
 
 Overall Accuracy: 89.9%
 
-⚙️ Installation
+## ⚙️ Installation
+
+```bash
 git clone https://github.com/Mohammadsahilshabbir/loan-default-prediction.git
-
 cd loan-default-prediction
-
 pip install -r requirements.txt
-▶️ Run the Project
-Generate Dataset
+```
+
+---
+
+## ▶️ Run the Project
+
+### Generate Dataset
+
+```bash
 python generate_data.py
-Train Models
+```
+
+### Train Models
+
+```bash
 python train_and_evaluate.py
-📁 Project Structure
+```
+
+---
+
+## 📁 Project Structure
+
+```text
 Loan-Default-Prediction/
 │
 ├── credit_synthetic.csv
@@ -106,14 +123,22 @@ Loan-Default-Prediction/
     ├── roc.png
     ├── feature_importances.png
     └── metrics.txt
-🎯 Future Improvements
-Train on real-world financial datasets
-Hyperparameter tuning using Grid Search
-Deploy as a Flask/Django web application
-Integrate Explainable AI (SHAP/LIME)
-Experiment with XGBoost and LightGBM
-👨‍💻 Author
+```
 
-Mohammad Sahil Shabbir
+---
 
-Machine Learning Project focused on loan risk assessment and credit default prediction using supervised learning algorithms
+## 🚀 Future Improvements
+
+- Train on real-world financial datasets
+- Hyperparameter tuning using Grid Search
+- Deploy as a Flask/Django web application
+- Integrate Explainable AI (SHAP/LIME)
+- Experiment with XGBoost and LightGBM
+
+---
+
+## 👨‍💻 Author
+
+**Mohammad Sahil Shabbir**
+
+Machine Learning project focused on loan risk assessment and credit default prediction using supervised learning algorithms.
